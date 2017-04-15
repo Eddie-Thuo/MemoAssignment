@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MemoAssignment</string>
+    <string name="add_memo">Add Memo</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="edit_changes">Edit Changes</string>
+    <string name="delete_memo">Delete</string>
+    <string name="memo_page">Memo</string>
+    <string name="all_memos">List of Memos</string>
+    <string name="hint_memo_title">Start Typing Title Here</string>
+    <string name="hint_memo_body">Starting Typing Body Here</string>
+    <string name="set_mode">Set Mode for Memo</string>
+    <string name="dialog_title">Select appropriate mode for Memo</string>
+    <string name="snackbar_delete">Are you sure you want to delete?</string>
+    <string name="empty_memo">You currently have 0 memos.</string>
+    <string name="memo_date">Date</string>
+    <string name="memo_title">Memo Title</string>
+    <string name="time_picker_title">Select date for Alarm</string>
+    <string name="mode_selected">Mode Selected: </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="deleted">Deleted</string>
+    <string name="cancel">CANCEL</string>
+    <string name="do_not_set_dialog_button">DO NOT SET</string>
+</resources>
+

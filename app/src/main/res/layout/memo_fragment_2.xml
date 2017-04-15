@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_fragment_color">
+
+        <android.support.v7.widget.CardView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/yo"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="19">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/text_input_title"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/title_edit_text"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:hint="@string/hint_memo_title"
+                        android:background="@android:color/transparent"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/text_input_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="17"
+                    android:layout_margin="0dp"
+                    android:background="@color/memo_body_color">
+                    <EditText
+                        android:id="@+id/body_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_memo_body"
+                        android:background="@android:color/transparent"
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <Button
+                    android:id="@+id/set_mode_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/set_mode"
+                    android:background="@color/toolbar_color"
+                    android:textColor="@android:color/white"
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
